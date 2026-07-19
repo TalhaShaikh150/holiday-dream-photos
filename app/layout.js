@@ -1,5 +1,6 @@
 import { Montserrat, Bodoni_Moda } from "next/font/google";
 import "./globals.css";
+import FontTester from "@/components/FontTester";
 
 const montserrat = Montserrat({
   subsets: ["latin"],
@@ -24,6 +25,7 @@ export default function RootLayout({ children }) {
     >
       <body className="min-h-full flex flex-col font-sans bg-[#F9F7F4] text-[#113122]">
         <main className="flex-1">{children}</main>
+        <FontTester />
       </body>
     </html>
   );

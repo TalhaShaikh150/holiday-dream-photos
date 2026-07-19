@@ -3,6 +3,7 @@ import Hero from "@/components/home/Hero";
 import TrustIntro from "@/components/home/TrustIntro";
 import BrandIntro from "@/components/home/BrandIntro";
 import SantaSplit from "@/components/home/SantaSplit";
+import MagicMoments from "@/components/home/MagicMoments";
 import QuickLinks from "@/components/home/QuickLinks";
 import Footer from "@/components/layout/Footer";
 
@@ -14,6 +15,7 @@ export default function Home() {
       <TrustIntro />
       <BrandIntro />
       <SantaSplit />
+      <MagicMoments />
       <QuickLinks />
       <Footer />
     </>

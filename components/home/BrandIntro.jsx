@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export default function BrandIntro() {
   return (
-    <section className="py-24 bg-white relative overflow-hidden">
+    <section className="py-16 md:py-20 lg:py-24 bg-white relative overflow-hidden">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex flex-col lg:flex-row items-center gap-16">
           
@@ -33,7 +33,7 @@ export default function BrandIntro() {
           {/* Luxury Editorial Image Collage */}
           <div className="flex-1 relative w-full h-[600px] hidden lg:block">
             {/* Background Wreath Accent */}
-            <div className="absolute top-[-10%] right-[-10%] w-[500px] h-[500px] opacity-15 pointer-events-none z-0">
+            <div className="absolute top-[-10%] right-[-10%] w-[500px] h-[500px] opacity-60 pointer-events-none z-0">
               <Image
                 src="/images/hero_wreath.png"
                 alt="Decorative Wreath"
@@ -62,15 +62,7 @@ export default function BrandIntro() {
               />
             </div>
             
-            {/* Small Wreath overlapping as a seal */}
-            <div className="absolute top-[60%] left-[45%] -translate-x-1/2 -translate-y-1/2 w-32 h-32 z-30 pointer-events-none drop-shadow-xl">
-              <Image
-                src="/images/hero_wreath.png"
-                alt="Holiday Seal"
-                fill
-                className="object-contain"
-              />
-            </div>
+          
           </div>
 
         </div>

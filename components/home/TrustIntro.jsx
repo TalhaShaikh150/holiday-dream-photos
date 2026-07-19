@@ -2,18 +2,18 @@ import Image from "next/image";
 
 export default function TrustIntro() {
   return (
-    <section className="py-24 relative overflow-hidden">
+    <section className="py-16 md:py-20 lg:py-24 relative overflow-hidden">
       {/* Background Image */}
       <div className="absolute inset-0 w-full h-full z-0">
         <Image
-          src="/images/background.jpg"
+          src="/images/background3.jpg"
           alt="Magical Holiday Background"
           fill
           className="object-cover"
         />
         {/* Heavy rich overlay for text legibility */}
-        <div className="absolute inset-0 bg-[#113122]/50 mix-blend-multiply" />
-        <div className="absolute inset-0 bg-black/40" />
+        <div className="absolute inset-0 bg-[#113122]/20 mix-blend-multiply" />
+        <div className="absolute inset-0 bg-black/70" />
       </div>
 
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center relative z-10">
