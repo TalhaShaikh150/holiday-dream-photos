@@ -1,14 +1,26 @@
+import Image from "next/image";
+
 export default function TrustIntro() {
   return (
-    <section className="py-24 bg-[#113122] relative overflow-hidden">
-      {/* Decorative subtle texture/glow if needed, but a solid rich green is great */}
-      <div className="absolute top-0 left-0 w-full h-full opacity-10 bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-white via-transparent to-transparent pointer-events-none" />
+    <section className="py-24 relative overflow-hidden">
+      {/* Background Image */}
+      <div className="absolute inset-0 w-full h-full z-0">
+        <Image
+          src="/images/background.jpg"
+          alt="Magical Holiday Background"
+          fill
+          className="object-cover"
+        />
+        {/* Heavy rich overlay for text legibility */}
+        <div className="absolute inset-0 bg-[#113122]/50 mix-blend-multiply" />
+        <div className="absolute inset-0 bg-black/40" />
+      </div>
 
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center relative z-10">
         <p className="text-brand-red font-semibold uppercase tracking-[0.2em] text-xs md:text-sm mb-4">
           The Holiday Dream Promise
         </p>
-        <h2 className="font-cormorant text-4xl md:text-5xl lg:text-6xl font-medium text-brand-light mb-8">
+        <h2 className="font-bodoni text-4xl md:text-5xl lg:text-6xl font-medium text-brand-light mb-8">
           We Only Use <span className="italic text-brand-red">Real</span> Bearded Santas
         </h2>
         <div className="w-16 h-[2px] bg-brand-red mx-auto mb-10 rounded-full"></div>

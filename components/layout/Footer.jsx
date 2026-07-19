@@ -9,7 +9,7 @@ export default function Footer() {
       </div>
 
       <div className="max-w-3xl mx-auto px-4 text-center z-10 relative">
-        <h2 className="font-playfair text-3xl md:text-4xl font-bold text-brand-dark mb-8">
+        <h2 className="font-bodoni text-3xl md:text-4xl font-bold text-brand-dark mb-8">
           Join Santa&apos;s Mailing List
         </h2>
         
