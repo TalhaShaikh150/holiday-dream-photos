@@ -12,25 +12,25 @@ export default function QuickLinks() {
       title: "Locations",
       description: "Find a premium Santa photo experience near you.",
       href: "/locations",
-      image: "https://images.pexels.com/photos/2555627/pexels-photo-2555627.jpeg" // A beautiful mall/location interior
+      image: "https://images.pexels.com/photos/186613/pexels-photo-186613.jpeg" // Premium interior with Christmas tree
     },
     {
       title: "Private Events",
       description: "Book Santa for corporate events, parties, or home visits.",
       href: "/private-events",
-      image: "https://images.pexels.com/photos/6211090/pexels-photo-6211090.jpeg" // Christmas party setting
+      image: "https://images.pexels.com/photos/6211090/pexels-photo-6211090.jpeg" // Christmas party setting (kept same)
     },
     {
       title: "Join the Team",
       description: "We are hiring real-bearded Santas and elves.",
       href: "/hiring",
-      image: "https://images.pexels.com/photos/6212135/pexels-photo-6212135.jpeg" // Santa adjusting suit
+      image: "http://localhost:3000/_next/image?url=%2Fimages%2Fmall2.jpg&w=1920&q=75" // Santa adjusting his suit
     },
     {
       title: "Contact Us",
       description: "Have questions? Our magical support team is here.",
       href: "/contact",
-      image: "/images/real_traditional.jpg" // Reliable local image as fallback
+      image: "http://localhost:3000/_next/image?url=%2Fimages%2Fmall1.jpg&w=1920&q=75" // Writing a letter
     }
   ];
 
